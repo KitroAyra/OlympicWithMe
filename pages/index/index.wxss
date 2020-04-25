@@ -1,0 +1,66 @@
+/**index.wxss**/
+page{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.navbar{
+  font-size: 30rpx;   /*设置文字大小*/
+  flex: none;
+  display: flex;
+  background: #fff;
+}
+.navbar .item{
+  position: relative; /*item相对定位*/
+  flex: auto;         /*弹性布局*/
+  text-align: center; /*设置文字的居中*/
+  line-height: 80rpx; /*设置item的高度*/
+}
+.navbar .item.active{
+  color: #508CC8; /*设置bar被选中后的颜色*/
+}
+.navbar .item.active:after{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4rpx;
+  background: #508CC8;
+}
+.filterList-sort-list,.all-sort-list,.nearby-sort-son,.nearby-sort-list,.capacity-sort-list,.filterList,.filterList-footer{
+  background: white;
+}
+.filterList-sort-list,.all-sort-list,.nearby-sort-son,.nearby-sort-list,.capacity-sort-list{
+  flex-direction: column;
+  border-top: 1px solid rgba(0,0,0,0);
+  display: flex;
+}
+.filterList-sort,.all-sort,.nearby-sort-son,.nearby-sort,.capacity-sort{
+  font-size: 25rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  margin-left: 30rpx;
+}
+
+.shot-menu {
+  border-bottom: 1px solid #e5e5e5;
+  background: rgba(255,255,255,0.6);
+}
+.shot-menu .shot-menu-item {
+  width: 33.33%;
+  text-align: center;
+  display: inline-block;
+  height: 37px;
+  line-height: 37px;
+  font-size: 11px;
+}
+.shot-menu .shot-menu-item:hover {
+  background: #fff;
+}
+.shot-menu .shot-menu-arrow {
+  width: 8px;
+  height: 5px;
+  padding-left: 3px;
+}

@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/message/message",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/introduction/introduction",
+    "pages/interaction/interaction"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#508CC8",
+    "navigationBarTitleText": "奥运有我",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#508CC8",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icon-interaction.png",
+        "text": "比赛"
+      },
+      {
+        "pagePath": "pages/interaction/interaction",
+        "text": "互动"
+      }
+    ]
+  }
+}

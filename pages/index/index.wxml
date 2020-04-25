@@ -1,0 +1,33 @@
+<!--导航条-->
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+ 
+<!--奖牌榜-->
+<view hidden="{{currentTab!==0}}">
+  <view class="shot-menu">
+    <view class="shot-menu-item" bindtap="actionSheetChange" data-name="sort">
+      <text>全部国家</text>
+      <image src="../../images/icon-arrow.png" class="shot-menu-arrow"></image>
+    </view>
+    <view class="shot-menu-item" bindtap="actionSheetChange" data-name="list">
+      <text>全部项目</text>
+      <image src="../../images/icon-arrow.png" class="shot-menu-arrow"></image>
+    </view>
+    <view class="shot-menu-item" bindtap="actionSheetChange" data-name="timeframe">
+      <text>全部日期</text>
+      <image src="../../images/icon-arrow.png" class="shot-menu-arrow"></image>
+    </view>
+  </view>
+
+</view>
+ 
+<!--时间表-->
+<view hidden="{{currentTab!==1}}">
+  tab_02
+</view>
+ 
+<!--项目介绍-->
+<view hidden="{{currentTab!==2}}">
+  tab_03
+</view>
