@@ -47,6 +47,7 @@ page{
 .shot-menu {
   border-bottom: 1px solid #e5e5e5;
   background: rgba(255,255,255,0.6);
+
 }
 .shot-menu .shot-menu-item {
   width: 33.33%;
@@ -72,6 +73,30 @@ page{
   line-height: 32px;
   font-size: 11px;
 }
+.shot-menu.shot-menu-box{
+  justify-content: right;
+}
+.shot-menu .shot-menu-item3 {
+  width: 13%;
+  text-align: center;
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+  font-size: 11px;
+  margin-left: 20px;
+  right:0;
+
+}
+.shot-menu .shot-menu-item4 {
+  width: 25%;
+  text-align: center;
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+  font-size: 11px;
+  margin-left: 20px;
+
+}
 
 /*列表框渲染*/
 .game-list {
@@ -95,7 +120,7 @@ page{
     border: 6rpx solid #508CC8;
 }
 
-.game-item-active::before {
+/*.game-item-active::before {
     content: '';
     display: block;
     position: absolute;
@@ -105,20 +130,20 @@ page{
     width: 160rpx;
     height: 160rpx;
     transform: rotate(45deg);
-    background-color: #508CC8;/*47a86c*/
+    background-color: #508CC8;
 }
 
 .game-item-active::after {
-    content: '关注';
+    content: '';
     display: block;
     position: absolute;
     top: 5px;
     right: 3px;
-    z-index: 4;            /*堆叠次序*/
+    z-index: 4;         
     text-align: center;
     transform: rotate(45deg);
     color: #fff;
-}
+}*/
 
 .game-title {
     box-sizing: border-box;                     /*设置了border-box;item的大小宽高300，则300包含padding和边框*/
@@ -204,3 +229,5 @@ movable-view.indexBar-item::before {
   text-align: center;
   font-size: 48rpx;
 }
+/*奖牌榜*/
+

@@ -1,7 +1,6 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/gameIntroduction/figureSkating/figureSkating",
     "pages/introduction/introduction",
     "pages/message/message",
     "pages/logs/logs",
@@ -11,7 +10,8 @@
     "pages/indiviual/indiviual",
     "pages/purchase/purchasePage/purchasePage",
     "pages/interaction/interactionDetail/interactionDetail",
-    "pages/polite/knowledge/knowledge"
+    "pages/polite/knowledge/knowledge",
+    "pages/gameIntroduction/gameIntroduction"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -2823,8 +2823,8 @@ scroll-view.cu-steps .cu-item {
 .basis-25 {
 	flex-basis: 25%;
 }
-.basic-27{
-  flex-basis: 27%
+.basic-50{
+  flex-basis: 50%
 }
 
 .basis-sm {

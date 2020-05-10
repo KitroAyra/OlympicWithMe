@@ -7,8 +7,10 @@
 <view hidden="{{currentTab!==0}}">
   <view class="shot-menu">
     <view class="shot-menu-item" bindtap="actionSheetChange" data-name="sort">
+      <picker bindchange="bindPickerChange2" value="{{indexSubTab}}" range="{{Countrylist}}">
       <text>全部国家</text>
       <image src="../../images/icon-arrow.png" class="shot-menu-arrow"></image>
+      </picker>
     </view>
     <view class="shot-menu-item" bindtap="actionSheetChange" data-name="list">
       <text>全部项目</text>
@@ -18,7 +20,46 @@
       <text>全部日期</text>
       <image src="../../images/icon-arrow.png" class="shot-menu-arrow"></image>
     </view>
+    <!--奖牌榜表头-->
+    <view class="flex solid-bottom padding ">
+      <view class="shot-menu-item4 basic-50 ">
+        <text >代表团</text>
+      </view>
+      <view class="shot-menu-item3" >
+        <text>金牌</text>
+      </view>
+      <view class="shot-menu-item3" >
+        <text>银牌</text>
+      </view>
+      <view class="shot-menu-item3">
+        <text>铜牌</text>
+      </view>
+      <view class="shot-menu-item3">
+        <text>总计</text>
+      </view>
+    </view>
   </view>
+
+  <!--全部国家、全部项目、全部日期-->
+  <view hidden="{{currentsubTab == 0}}">
+  <!--奖牌榜内容2018平昌-->
+   <scroll-view scroll-y="true" class="indexes" scroll-into-view="C-{{indexSubTap}}" style="height:calc(100vh - {{CustomBar}}px - 50px)" scroll-with-animation="true" enable-back-to-top="true">
+    <view class="padding bg-white">
+      <view class="grid col-{{index+1}} margin-bottom text-center" wx:for="{{medalList}}" wx:for-index="medalIndex" wx:key id="C+{{medalIndex}}" > 
+       <view class="flex solid-bottom  justify-between">
+        <view class="basis-xs  margin-xs padding-sm radius" >{{medalIndex+1}}</view>
+        <view class="cu-avatar  round margin-xs" style="background-image:url({{item.flagImg}});"></view>
+        <view class=" margin-xs padding-sm radius">{{item.countryName}}</view>
+        <view class=" margin-xs padding-sm radius">{{item.goldMedal}}</view>
+        <view class=" margin-xs padding-sm radius">{{item.silverMedal}}</view>
+        <view class=" margin-xs padding-sm radius">{{item.bronzeMedal}}</view>
+        <view class=" margin-xs padding-sm radius">{{item.totalMedal}}</view>
+      </view>
+      </view>
+    </view>
+    </scroll-view>
+  </view>
+
 </view>
  
 <!--时间表-->
@@ -106,16 +147,16 @@
 <!--项目介绍-->
 <view hidden="{{currentTab!==2}}">
   <!--搜索框-->
-  <view class="cu-bar bg-white search " style="top:{{CustomBar}}px">
-    <view class="search-form round">
-      <text class="cuIcon-search"></text>
-      <input type="text" placeholder="搜索项目" confirm-type="search" bindinput="searchIcon"></input>
-    </view>
+<view class="cu-bar bg-white search" style="top:0.1px">
+  <view class="search-form round">
+    <text class="cuIcon-search"></text>
+    <input type="text" placeholder="搜索icon" confirm-type="search" bindinput="searchIcon"></input>
   </view>
+</view>
   <!--项目列表-->
-  <view class="game-list">
+  <view class="game-list" style="top:90px">
     <block wx:for="{{gameList}}" wx:for-item="gameItem" wx:for-index="gameIndex" wx:key="game">
-        <view class="game-item {{nowGame == gameItem.imgUrl ? 'game-item-active' : ''}}" data-url="{{gameItem.imgUrl}}" bindtap="chooseSkin">
+        <view class="game-item {{nowGame == gameItem.imgUrl ? 'game-item-active' : ''}}" data-url="{{gameItem.imgUrl}}" bindtap="navigateToSpecific">
             <image src="{{gameItem.imgUrl}}" class="game-img"></image>
             <view class="game-title  text-blue">{{gameItem.title}}</view>
         </view>
