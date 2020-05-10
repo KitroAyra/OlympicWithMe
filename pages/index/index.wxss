@@ -64,3 +64,143 @@ page{
   height: 5px;
   padding-left: 3px;
 }
+.shot-menu .shot-menu-item2 {
+  width: 25%;
+  text-align: center;
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+  font-size: 11px;
+}
+
+/*列表框渲染*/
+.game-list {
+    overflow: auto/*可滚动，hidden时不可滚动*/
+}
+.game-item, .game-img {
+    width: 710rpx;  /*每个卡片的宽度大小，710rpx*/
+    height: 400rpx; /*每个卡片的宽度大小，360rpx*/
+}
+
+.game-item {
+    box-sizing: border-box;/*设置了box-sizing: border-box;item的大小宽高300，则300包含padding和边框*/
+    position: relative;
+    margin: 30rpx auto;
+    border-radius: 20rpx;
+    box-shadow: 0 20rpx 20rpx rgba(0, 0, 0, .2);
+    overflow: hidden;
+}
+
+.game-item-active {
+    border: 6rpx solid #508CC8;
+}
+
+.game-item-active::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -80rpx;
+    right: -80rpx;
+    z-index: 4;
+    width: 160rpx;
+    height: 160rpx;
+    transform: rotate(45deg);
+    background-color: #508CC8;/*47a86c*/
+}
+
+.game-item-active::after {
+    content: '关注';
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 3px;
+    z-index: 4;            /*堆叠次序*/
+    text-align: center;
+    transform: rotate(45deg);
+    color: #fff;
+}
+
+.game-title {
+    box-sizing: border-box;                     /*设置了border-box;item的大小宽高300，则300包含padding和边框*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70rpx;                              /*文字框的高度*/
+    line-height: 70rpx;                         /*文字的高度*/
+    padding: 0 80rpx;                           /*内边距，上下是0，左右是80，此次主要控制文字的左右位置*/
+    background-color: rgba(255, 255,255, 0.8);/*文字框颜色，0.8为透明度*/
+    border-radius: 0 0 20rpx 20rpx;             /*文字框曲度和外边保持一致*/
+    color: #000;                              /*文字颜色*/
+    font-family:'Times New Roman', Times, serif;/*字体*/
+    font-size:32rpx;                            /*字号*/
+}
+/*时间表渲染*/
+
+.indexes {
+  position: relative;
+}
+
+.indexBar {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  padding: 20rpx 20rpx 20rpx 60rpx;
+  display: flex;
+  align-items: center;
+}
+
+.indexBar .indexBar-box {
+  width: 40rpx;
+  height: auto;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.1);
+  border-radius: 10rpx;
+}
+
+.indexBar-item {
+  flex: 1;
+  width: 40rpx;
+  height: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24rpx;
+  color: #888;
+}
+
+movable-view.indexBar-item {
+  width: 40rpx;
+  height: 40rpx;
+  z-index: 9;
+  position: relative;
+}
+
+movable-view.indexBar-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 10rpx;
+  height: 20rpx;
+  width: 4rpx;
+  background-color: #f37b1d;
+}
+
+.indexToast {
+  position: fixed;
+  top: 0;
+  right: 80rpx;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 10rpx;
+  margin: auto;
+  color: #fff;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 48rpx;
+}

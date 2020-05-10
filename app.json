@@ -1,11 +1,17 @@
 {
   "pages": [
-    "pages/message/message",
     "pages/index/index",
-    "pages/logs/logs",
+    "pages/gameIntroduction/figureSkating/figureSkating",
     "pages/introduction/introduction",
-    "pages/interaction/interaction"
-    
+    "pages/message/message",
+    "pages/logs/logs",
+    "pages/interaction/interaction",
+    "pages/polite/polite",
+    "pages/purchase/purchase",
+    "pages/indiviual/indiviual",
+    "pages/purchase/purchasePage/purchasePage",
+    "pages/interaction/interactionDetail/interactionDetail",
+    "pages/polite/knowledge/knowledge"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -23,12 +29,33 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath": "images/icon-interaction.png",
+        "iconPath": "images/icon-game.png",
+        "selectedIconPath": "images/icon-game-Hl.png",
         "text": "比赛"
       },
       {
         "pagePath": "pages/interaction/interaction",
+        "iconPath": "images/icon-interaction.png",
+        "selectedIconPath": "images/icon-interaction-Hl.png",
         "text": "互动"
+      },
+      {
+        "pagePath": "pages/polite/polite",
+        "iconPath": "images/icon-po.png",
+        "selectedIconPath": "images/icon-po-HL.png",
+        "text": "礼仪"
+      },
+      {
+        "pagePath": "pages/purchase/purchase",
+        "iconPath": "images/icon-purchase.png",
+        "selectedIconPath": "images/icon-purchase-HL.png",
+        "text": "购买"
+      },
+      {
+        "pagePath": "pages/indiviual/indiviual",
+        "iconPath": "images/icon-indi.png",
+        "selectedIconPath": "images/icon-indi-HL.png",
+        "text": "个人"
       }
     ]
   }

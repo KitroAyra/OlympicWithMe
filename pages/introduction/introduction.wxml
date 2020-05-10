@@ -1,8 +1,13 @@
-<view class="skin-list">
-    <block wx:for="{{skinList}}" wx:for-item="skinItem" wx:for-index="skinIndex" wx:key="skin">
-        <view class="skin-item {{nowSkin == skinItem.imgUrl ? 'skin-item-active' : ''}}" data-url="{{skinItem.imgUrl}}" bindtap="chooseSkin">
-            <image src="{{skinItem.imgUrl}}" class="skin-img"></image>
-            <view class="skin-title">{{skinItem.title}}</view>
+<!--导航条-->
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+<!--项目列表-->
+<view class="game-list">
+    <block wx:for="{{gameList}}" wx:for-item="gameItem" wx:for-index="gameIndex" wx:key="game">
+        <view class="game-item {{nowGame == gameItem.imgUrl ? 'game-item-active' : ''}}" data-url="{{gameItem.imgUrl}}" bindtap="chooseSkin">
+            <image src="{{gameItem.imgUrl}}" class="game-img"></image>
+            <view class="game-title">{{gameItem.title}}</view>
         </view>
     </block>
 </view>

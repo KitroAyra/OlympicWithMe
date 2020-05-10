@@ -170,6 +170,27 @@
             <view class="cu-tag round bg-grey sm">¥98</view>
           </view>
         </view>
+
+
+        <view class="cu-item">
+          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/clothe4.jpeg);">
+          </view>
+          <view class="content">
+            <view class="text-grey">
+              <text class="text-cut">2022冬奥会倒计时1000天T恤</text>
+            </view>
+            <view class="text-gray text-sm flex">
+              <text class="text-cut">
+										北京2022冬奥会倒计时1000天T恤女款短袖上衣夏装新款
+									</text>
+            </view>
+          </view>
+          <view class="action">
+            <view class="text-grey text-xs">官方</view>
+            <view class="cu-tag round bg-grey sm">¥159</view>
+          </view>
+        </view>
+
       </view>
     </view>
 
@@ -196,45 +217,6 @@
           <view class="action">
             <view class="text-grey text-xs">官方</view>
             <view class="cu-tag round bg-grey sm">¥59</view>
-          </view>
-        </view>
-
-        <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/badge2.jpeg);">
-            <!--view class="cu-tag badge">99+</view红色消息提示-->
-          </view>
-          <view class="content">
-            <view class="text-grey">
-              <text class="text-cut">时代变迁徽章套装</text>
-            </view>
-            <view class="text-gray text-sm flex">
-              <text class="text-cut">
-										【限量2022枚】时代变迁徽章套装-2020北京冬奥会纪念品
-									</text>
-            </view>
-          </view>
-          <view class="action">
-            <view class="text-grey text-xs">官方</view>
-            <view class="cu-tag round bg-grey sm">¥168</view>
-          </view>
-        </view>
-
-        <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/badge5.jpeg);">
-          </view>
-          <view class="content">
-            <view class="text-grey">
-              <text class="text-cut">中华戏曲徽章套装</text>
-            </view>
-            <view class="text-gray text-sm flex">
-              <text class="text-cut">
-										【限量5000套】竞韵华中国戏曲元素徽章套装-2020北京冬奥会纪念品
-									</text>
-            </view>
-          </view>
-          <view class="action">
-            <view class="text-grey text-xs">官方</view>
-            <view class="cu-tag round bg-grey sm">¥268</view>
           </view>
         </view>
       </view>
@@ -316,9 +298,8 @@
       </view>
       <!--菜单栏-->
       <view class="cu-list menu-avatar">
-
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/chinese1.jpeg);"></view>
+          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/stamp1.jpeg);"></view>
           <view class="content">
             <view class="text-grey">一定赢999纯银仿印邮票套装</view>
             <view class="text-gray text-sm flex">
@@ -329,46 +310,158 @@
           </view>
           <view class="action">
             <view class="text-grey text-xs">官方</view>
-            <view class="cu-tag round bg-grey sm">¥198</view>
+            <view class="cu-tag round bg-grey sm">¥598</view>
           </view>
         </view>
 
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/chinese2.jpeg);">
+          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/stamp2.jpeg);">
             <!--view class="cu-tag badge">99+</view红色消息提示-->
           </view>
           <view class="content">
             <view class="text-grey">
-              <text class="text-cut">洛杉矶奥运会马克杯</text>
+              <text class="text-cut">落花时节又逢君》连体明信片套装</text>
             </view>
             <view class="text-gray text-sm flex">
               <text class="text-cut">
-										1984年洛杉矶奥林匹克运动会纪念马克杯陶瓷水杯奥运经典系列商品
+										【官方特许】《落花时节又逢君》连体明信片套装北京2022冬奥会会徽官方特许
 									</text>
             </view>
           </view>
           <view class="action">
             <view class="text-grey text-xs">官方</view>
-            <view class="cu-tag round bg-grey sm">¥198</view>
+            <view class="cu-tag round bg-grey sm">¥68</view>
           </view>
         </view>
 
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/chinese3.jpeg);">
+          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/stamp3.jpeg);">
           </view>
           <view class="content">
             <view class="text-grey">
-              <text class="text-cut">巴塞罗那奥运会马克杯</text>
+              <text class="text-cut">炫彩冬韵明信片邮票四方联套装</text>
             </view>
             <view class="text-gray text-sm flex">
               <text class="text-cut">
-										1992年巴塞罗那夏季奥运会纪念马克杯陶瓷水杯奥运经典系列商品
+										【限量2022件】炫彩冬韵明信片邮票四方联套装北京2022冬奥会徽中国邮政限量发行
 									</text>
             </view>
           </view>
           <view class="action">
             <view class="text-grey text-xs">官方</view>
-            <view class="cu-tag round bg-grey sm">¥198</view>
+            <view class="cu-tag round bg-grey sm">¥89</view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <!--饰品-->
+    <!--top显示栏-->
+    <view class="padding-top padding-lr" wx:key id="main-5">
+      <view class='cu-bar solid-bottom bg-white'>
+        <view class='action'>
+          <text class='cuIcon-title text-green'></text> 饰品</view>
+      </view>
+      <!--菜单栏-->
+      <view class="cu-list menu-avatar">
+        <view class="cu-item">
+          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/jewelry1.jpeg);"></view>
+          <view class="content">
+            <view class="text-grey">舞雪系列冰心点语项链/手链/耳坠</view>
+            <view class="text-gray text-sm flex">
+              <text class="text-cut">
+									<text class=" text-red  margin-right-xs"></text> 【官方特许】舞雪系列冰心点语项链/手链/耳坠首饰品北京2022冬奥会
+              </text>
+            </view>
+          </view>
+          <view class="action">
+            <view class="text-grey text-xs">官方</view>
+            <view class="cu-tag round bg-grey sm">¥262</view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <!--玩具-->
+    <!--top显示栏-->
+    <view class="padding-top padding-lr" wx:key id="main-6">
+      <view class='cu-bar solid-bottom bg-white'>
+        <view class='action'>
+          <text class='cuIcon-title text-green'></text> 玩具</view>
+      </view>
+      <!--菜单栏-->
+      <view class="cu-list menu-avatar">
+        <view class="cu-item">
+          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/toy2.jpeg);">
+            <!--view class="cu-tag badge">99+</view红色消息提示-->
+          </view>
+          <view class="content">
+            <view class="text-grey">
+              <text class="text-cut">冬日欢歌吉祥物水晶球</text>
+            </view>
+            <view class="text-gray text-sm flex">
+              <text class="text-cut">
+										冬日欢歌北京2022冬奥会吉祥物水晶球创意摆件
+									</text>
+            </view>
+          </view>
+          <view class="action">
+            <view class="text-grey text-xs">官方</view>
+            <view class="cu-tag round bg-grey sm">¥110</view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+     <!--家居-->
+    <!--top显示栏-->
+    <view class="padding-top padding-lr" wx:key id="main-7">
+      <view class='cu-bar solid-bottom bg-white'>
+        <view class='action'>
+          <text class='cuIcon-title text-green'></text> 家居</view>
+      </view>
+      <!--菜单栏-->
+      <view class="cu-list menu-avatar">
+        <view class="cu-item">
+          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/jewelry1.jpeg);"></view>
+          <view class="content">
+            <view class="text-grey">中国风纸雕灯DIY手工拼装卧室床头灯</view>
+            <view class="text-gray text-sm flex">
+              <text class="text-cut">
+									<text class=" text-red  margin-right-xs"></text> 北京2022冬奥会文创纸雕灯DIY手工拼装卧室床头灯中国风
+              </text>
+            </view>
+          </view>
+          <view class="action">
+            <view class="text-grey text-xs">官方</view>
+            <view class="cu-tag round bg-grey sm">¥188</view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+     <!--户外-->
+    <!--top显示栏-->
+    <view class="padding-top padding-lr" wx:key id="main-8">
+      <view class='cu-bar solid-bottom bg-white'>
+        <view class='action'>
+          <text class='cuIcon-title text-green'></text> 户外</view>
+      </view>
+      <!--菜单栏-->
+      <view class="cu-list menu-avatar">
+        <view class="cu-item">
+          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/outside1.jpeg);"></view>
+          <view class="content">
+            <view class="text-grey">青花长城晴雨两用伞</view>
+            <view class="text-gray text-sm flex">
+              <text class="text-cut">
+									<text class=" text-red  margin-right-xs"></text> 暗金祥云长城晴雨伞北京2022冬奥会
+              </text>
+            </view>
+          </view>
+          <view class="action">
+            <view class="text-grey text-xs">官方</view>
+            <view class="cu-tag round bg-grey sm">¥98</view>
           </view>
         </view>
       </view>

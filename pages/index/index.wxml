@@ -19,15 +19,106 @@
       <image src="../../images/icon-arrow.png" class="shot-menu-arrow"></image>
     </view>
   </view>
-
 </view>
  
 <!--时间表-->
 <view hidden="{{currentTab!==1}}">
-  tab_02
+  <!--项目、日期、时段导航栏-->
+  <view class="shot-menu">
+    <view class="shot-menu-item" bindtap="actionSheetChange" data-name="sort">
+      <text>全部项目</text>
+      <image src="../../images/icon-arrow.png" class="shot-menu-arrow"></image>
+    </view>
+    <view class="shot-menu-item">
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{timeArray}}">
+        <text>全部日期</text>
+        <image src="../../images/icon-arrow.png" class="shot-menu-arrow"></image>        
+      </picker>
+    </view>
+    <view class="shot-menu-item" bindtap="actionSheetChange" data-name="timeframe">
+      <text>全部时段</text>
+      <image src="../../images/icon-arrow.png" class="shot-menu-arrow"></image>
+    </view>
+      <!--具体时间导航栏-->
+      <view class="shot-menu-item2">
+        <text>开始时间</text>
+      </view>
+      <view class="shot-menu-item2" >
+        <text>结束时间</text>
+      </view>
+      <view class="shot-menu-item2" >
+        <text>项目</text>
+      </view>
+      <view class="shot-menu-item2">
+       <text>比赛名称</text>
+      </view>
+  </view>
+
+  <!--时间表内容-->
+  <scroll-view scroll-y="true" class="indexes" scroll-into-view="{{jumpPoint}}" style="height:calc(100vh - {{CustomBar}}px - 50px)" scroll-with-animation="true" enable-back-to-top="true">
+  <!--这里是日期-->
+  <!--2月6日-->
+    <view id="D0" class="cu-bar bg-white margin-top solid-bottom">
+      <view class="action">
+       <text class="cuIcon-title text-blue"></text>{{listFeb6th[0].date}}
+     </view>
+     </view>
+    <view class="padding bg-white">
+      <view class="flex  p-xs margin-bottom-sm mb-sm" wx:for="{{listFeb6th}}" wx:key>
+        <view class="basis-25  margin-xs padding-sm radius">{{item.beginTime}}</view>
+        <view class="basis-25  margin-xs padding-sm radius">{{item.endTime}}</view>
+        <view class="basis-25  margin-xs padding-sm radius">{{item.title}}</view>
+        <view class="basis-25  margin-xs padding-sm radius">{{item.mode}}</view>
+     </view>
+    </view>
+  <!--2月7日-->
+    <view id="D1"class="cu-bar bg-white margin-top solid-bottom">
+      <view class="action">
+       <text class="cuIcon-title text-blue"></text>{{listFeb7th[0].date}}
+     </view>
+     </view>
+    <view class="padding bg-white">
+      <view class="flex  p-xs margin-bottom-sm mb-sm" wx:for="{{listFeb7th}}" wx:key>
+        <view class="basis-25  margin-xs padding-sm radius">{{item.beginTime}}</view>
+        <view class="basis-25  margin-xs padding-sm radius">{{item.endTime}}</view>
+        <view class="basis-25  margin-xs padding-sm radius">{{item.title}}</view>
+        <view class="basis-25  margin-xs padding-sm radius">{{item.mode}}</view>
+     </view>
+    </view>
+    <!--这里是日期-->
+  <!--2月8日-->
+    <view id="D2"class="cu-bar bg-white margin-top solid-bottom">
+      <view class="action">
+       <text class="cuIcon-title text-blue"></text>{{listFeb8th[0].date}}
+     </view>
+     </view>
+    <view class="padding bg-white">
+      <view class="flex  p-xs margin-bottom-sm mb-sm" wx:for="{{listFeb8th}}" wx:key>
+        <view class="basis-25  margin-xs padding-sm radius">{{item.beginTime}}</view>
+        <view class="basis-25  margin-xs padding-sm radius">{{item.endTime}}</view>
+        <view class="basis-25  margin-xs padding-sm radius">{{item.title}}</view>
+        <view class="basis-25  margin-xs padding-sm radius">{{item.mode}}</view>
+     </view>
+    </view>
+  </scroll-view>
 </view>
  
 <!--项目介绍-->
 <view hidden="{{currentTab!==2}}">
-  tab_03
+  <!--搜索框-->
+  <view class="cu-bar bg-white search " style="top:{{CustomBar}}px">
+    <view class="search-form round">
+      <text class="cuIcon-search"></text>
+      <input type="text" placeholder="搜索项目" confirm-type="search" bindinput="searchIcon"></input>
+    </view>
+  </view>
+  <!--项目列表-->
+  <view class="game-list">
+    <block wx:for="{{gameList}}" wx:for-item="gameItem" wx:for-index="gameIndex" wx:key="game">
+        <view class="game-item {{nowGame == gameItem.imgUrl ? 'game-item-active' : ''}}" data-url="{{gameItem.imgUrl}}" bindtap="chooseSkin">
+            <image src="{{gameItem.imgUrl}}" class="game-img"></image>
+            <view class="game-title  text-blue">{{gameItem.title}}</view>
+        </view>
+    </block>
+  </view>
 </view>

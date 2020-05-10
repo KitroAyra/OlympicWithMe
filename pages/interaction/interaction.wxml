@@ -1,2 +1,37 @@
-<!--pages/interaction/interaction.wxml-->
-<text>pages/interaction/interaction.wxml</text>
+<view class="cu-bar search bg-white">
+  <view class="search-form round">
+      <text class="cuIcon-search"></text>
+      <input type="text" placeholder="有人一起去场馆吗" confirm-type="search"></input>
+  </view>
+</view>
+<block wx:for="{{forumList}}" wx:for-item="forumItem" wx:for-index="forumIndex" wx:key="forum">
+  <view class="cu-card dynamic {{isCard?'no-card':''}}" >
+    <view class="cu-item shadow" bindtap="NavChangeDetail" >
+      <view class="cu-list menu-avatar" >
+        <view class="cu-item">
+          <view class="cu-avatar round lg" style="background-image:url({{forumItem.avatarImgUrl}})"></view>
+          <view class="content flex-sub">
+            <view>{{forumItem.avatarName}}</view>
+            <view class="text-gray text-sm flex justify-between">
+            {{forumItem.avatarTime}}
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="text-content">
+      {{forumItem.avatarContent}}
+      </view>
+      <view wx:if="{{forumItem.haveImg==true}}">
+        <view class="grid flex-sub padding-lr {{isCard?'col-3 grid-square':'col-1'}}">
+          <view class="bg-img {{isCard?'':'only-img'}}" style="background-image:url({{forumItem.avatarContentImg}});" wx:for="{{isCard?9:1}}" wx:key="{{index}}">
+          </view>
+        </view>
+      </view>
+      <view class="text-gray text-sm text-right padding">
+        <text class="cuIcon-attentionfill margin-lr-xs"></text> {{forumItem.numberOfViews}}
+        <text class="cuIcon-appreciatefill margin-lr-xs"></text> {{forumItem.numberOflikes}}
+        <text class="cuIcon-messagefill margin-lr-xs"></text> {{forumItem.numberOfComments}}
+      </view>
+    </view>
+  </view>
+</block>  
