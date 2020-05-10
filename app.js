@@ -1,4 +1,5 @@
 //app.js
+const BASE_URL = 'http://132.232.62.176:8080'
 App({
   onLaunch: function () {
     if (wx.cloud) {
@@ -19,6 +20,41 @@ App({
       }
     })
   },
+  request: (url, data, method = 'GET', showLoading = true) => {
+    var promise = new Promise((resolve, reject) => {
+       var that = this;
+
+       if (showLoading) {
+         wx.showLoading({
+           title: '加载中...',
+         });
+       }
+       //网络请求
+       wx.request({
+          url: BASE_URL + url,
+          data,
+          method,
+          success: res => {
+             if (res.data.status == 200) {
+                resolve( res.data.data );
+             } else {
+                reject( res.data.data );
+             }
+          },
+          fail: e => {
+             reject(e);
+             wx.showToast({
+               title: '网络请求错误，请检查您的网络状态',
+               icon: 'none',
+             });
+          },
+          complete: () => {
+            wx.hideLoading();
+          }
+       })
+    });
+    return promise;
+ },
   globalData: {
     currentPurchaseNum:0, //用来记录跳转页面
     ColorList: [{

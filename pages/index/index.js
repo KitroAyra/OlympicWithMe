@@ -114,7 +114,15 @@ Page({
         })
       }
     })
-    wx.getStorage({             //储存到本地
+    app.request('/api/medal/getAll', {}).then(res => {
+      // res 请求成功时返回数据
+      console.log(res);
+    })
+    .catch(e => {
+      // 请求失败时回调函数
+      console.error(e)
+    });
+    wx.getStorage({//储存到本地
       key: 'game',
       success: function (res) {
         if (res.data == "") {
