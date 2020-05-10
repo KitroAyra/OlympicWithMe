@@ -1,0 +1,26 @@
+<!--搜索框-->
+<view class="cu-bar search bg-white">
+  <view class="search-form round">
+      <text class="cuIcon-search"></text>
+      <input type="text" placeholder="花样滑冰观赛礼仪" confirm-type="search"></input>
+  </view>
+</view>
+<!--文章列表-->
+<block wx:for="{{politeList}}" wx:for-item="politeItem" wx:for-index="politeIndex" wx:key="polite">
+  <view class="cu-card article {{isCard?'no-card':''}}" >
+    <view class="cu-item shadow" bindtap="navChange">
+      <view class="title">
+        <view class="text-cut">{{politeItem.title}}</view>
+      </view>
+      <view class="content">
+        <image wx:if="{{politeItem.haveImg==true}}" src="{{politeItem.selectedImgUrl}}" mode="aspectFill"></image>
+        <view class="desc">
+          <view class="text-content">{{politeItem.content}}</view>
+          <view wx:if="{{politeIndex==0}}">
+            <view class="cu-tag bg-red light sm round">置顶</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</block>

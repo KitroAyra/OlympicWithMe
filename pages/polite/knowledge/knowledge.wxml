@@ -1,0 +1,24 @@
+<view class="cu-bar justify-center bg-white">
+  <view class="action sub-title">
+    <text class="text-xl text-bold text-blue">奥运冷知识</text>
+    <text class="text-ABC text-blue">Olympic</text>
+    <!-- last-child选择器-->
+  </view>
+</view>
+<view class="xin">
+
+  <view class="xin-list" bindtouchend="moveItem" bindtouchstart="moveStart">
+    <block wx:for="{{xinList}}" wx:key="key" wx:for-index="idx">
+      <view class="single" style="opacity:{{item.display}};transform: translateX({{item.slateX}}) scale({{item.scale}});z-index:{{item.zIndex}};transform-origin: 100% 50% 0;{{item.style}}">
+        <view class="xin-shou">
+           {{item.to}}
+        </view>
+        <view class="xin-body">
+        {{item.msg}}
+        </view>
+        <view class="shenglue">···</view>
+        <view class="xin-xie">In {{item.from}}</view>
+      </view>
+    </block>
+  </view>
+</view>
