@@ -16,6 +16,10 @@ Page({
     jumpPoint2:'',
     //国家列表
     Countrylist:['挪威','德国','加拿大','美国','荷兰','瑞典','韩国','瑞士','法国','奥地利','俄罗斯','捷克','白俄罗斯','中国'],
+    //bar的项目列表，V1版本仅支持全部项目查看
+    gamebarList:['全部项目'],
+    //bar时间列表，V1版本仅支持当日查看
+    timebarList:['今日'],
     //项目列表
     gameList: [
       { title: '花样滑冰项目介绍', imgUrl: '../../images/competition/10.jpg' },

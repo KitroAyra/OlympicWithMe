@@ -1,0 +1,40 @@
+<view class="page" data-weui-theme="{{theme}}">
+    <view class="page__hd">
+        <view class="page__title">武大靖为中国队夺得首金</view>
+        <view class="page__desc">奥运速报</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-article">
+            <view class="weui-article__h1">武大靖连续打破世界纪录</view>
+             <view class="weui-article__p">
+                    <text decode="{{true}}">&emsp;&emsp;北京时间2月22日，在刚刚结束的平昌冬奥短道速滑男子500米决赛中，中国队武大靖在两位韩国队员的包夹下一马当先，以39秒584的成绩打破了自己刚刚在1/4决赛中创造的世界纪录夺得冠军！为中国队赢来本届冬奥的第一枚金牌！</text>
+                    </view>
+            <view class="weui-article__section">
+                <view class="weui-article__h2">冬奥会中国队首金</view>
+                <view class="weui-article__section">
+                    <view class="weui-article__p ">
+                       <text decode="{{true}}">&emsp;&emsp;等待了14天，在短道速滑连续遭遇争议判罚，女队全军覆没，李琰的无奈抿嘴，武大靖破釜沉舟霸气夺冠，一扫数日阴霾，这枚金牌太过重要和及时，武大靖扛起中国短道速滑队破荒重任。终结了本届冬奥会上中国军团无金牌入账的局面。</text>
+                    </view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../../../images/competition/firstgold.jpg" mode="aspectFit" style="height: 180px;" />
+                    </view>
+                     <view class="weui-article__p">
+                      <text decode="{{true}}">&emsp;&emsp;武大靖尽情挥拳，李琰激情呐喊，24年等待中国男子短道终见金牌，武大靖也成为历史第一人。短道速滑是在1992年正式成为冬奥会比赛项目。2002年盐湖城冬奥会大杨扬成为中国冬奥会夺金第一人后，这个项目就成为了每一届冬奥会中国重点夺金项目，但是与中国女队相比，中国男队在冬奥会上屡屡与金牌失之交臂，24年之后我们终于在500米这个项目上圆梦。</text>
+                    </view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../../../images/competition/firstgold2.jpg" mode="aspectFit" style="height: 180px;" />
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h2">弥补2014索契冬奥会遗憾</view>
+                    <view class="weui-article__p ">
+                      <text decode="{{true}}">&emsp;&emsp;2014年索契冬奥会，武大靖在500米决赛中被安贤洙反超屈居亚军，从此下了决心要把错失的500米金牌拿回来，武大靖自己说道：“现在我做的每一件事都是为了冬奥会而准备，我要把索契留下的遗憾在平昌补上。我期待那时的中国队是个猛虎队，什么不害怕。”</text>
+                    </view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../../../images/competition/firstgold3.jpg" mode="aspectFit" style="height: 180px;" />
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,132 @@
+<view class="page" data-weui-theme="{{theme}}">
+    <view class="page__hd">
+        <view class="page__title">奥运观赛礼仪</view>
+        <view class="page__desc">共建文明奥运</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-article">
+            <view class="weui-article__h1">奥运观赛礼仪18条</view>
+             <view class="weui-article__p">
+                    <text decode="{{true}}">&emsp;&emsp;奥运礼仪很少被人提及。但事实是，很多比赛因为观众的不懂礼甚至失礼，不仅在赛场上造成负面影响，影响比赛的正常进行，甚至还有损国家形象。因为赛场往往是各国媒体关注的焦点，一些所谓的“小节”问题，不仅代表你个人，还代表着一个群体、一座城市，以至一个国家的形象。所以，遵守赛场礼仪、做文明观众，是必要的。</text>
+                    </view>
+            <view class="weui-article__section">
+                <view class="weui-article__h2">场内礼仪</view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">1、文明观赛　展示形象</view>
+                    <view class="weui-article__p">
+                        <text decode="{{true}}">&emsp;&emsp;奥运盛会，举世瞩目。100多年来，奥运比赛项目在不断完善各自的赛制和规则的同时，形成了一些约定俗成的赛场文明习俗和明文规定的观赛礼仪。文明观赛，这既是奥运会文化礼仪的一个部分，也是展示东道主良好形象的重要内容。</text>
+                    </view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../../../images/competition/nest.jpg" mode="aspectFit" style="height: 180px;" />
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">2、排队安检　准时进场</view>
+                    <view class="weui-article__p">
+                      <text decode="{{true}}">&emsp;&emsp;观看奥运比赛，应尽量提前或准时入场。因此，出发前最好先熟悉一下去赛场的交通路线，尽量乘坐快捷畅通的公共交通。进入场内，在入口处会有或长 或短的观众队伍等待安检，一定要有序排队，不可加塞插队。进场后对号入座，若比赛已开始，应就近入座，待中间休息时再寻找自己的座位。</text>
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">3、稍懂规则　学会欣赏</view>
+                    <view class="weui-article__p">
+                     <text decode="{{true}}">&emsp;&emsp;观看比赛前，应该稍稍了解该比赛项目的基本规则，这样有利于我们在看热闹的同时学会看门道。观看奥运竞技比赛，观众还要带着一种平常心态，对于运动员取得胜利赢得奖牌固然值得庆贺，而对于失败也大可不必钻“牛角尖”。</text>
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">4、休闲着装　整洁大方</view>
+                    <view class="weui-article__p">
+                      <text decode="{{true}}">&emsp;&emsp;奥运观赛尽管没有严格的着装要求，但观众仍然要遵循文明礼貌的习俗约定。衣着以舒适、休闲、整洁、大方为宜，不可过于随便，尤其是在温度比较高的游泳馆里，不要当“膀爷”。</text>
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">5、携带物品　遵守规章</view>
+                    <view class="weui-article__p">
+                      <text decode="{{true}}">&emsp;&emsp; 赛场不准带易燃易爆等危险物品进场，打火机、酒瓶、凳子、刀具等硬件物品以及易拉罐等罐装物品也均被拒之门外；不准带入宠物。另外，锣鼓、哨笛、喇叭、旗杆等大件物品，也不宜带入场内；携带标语，决不可有侵犯知识产权的变相广告宣传。</text>
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">6、升国旗礼　肃立歌唱</view>
+                    <view class="weui-article__p">
+                      <text decode="{{true}}">&emsp;&emsp;在举行升国旗、奏国歌时，现场所有人员都应肃立并面向国旗行注目礼，也可跟着乐曲用正常音量唱国歌。如果是升他国国旗、或奥运会会旗，奏他国国歌或奥运会会歌，也应肃立行注目礼表示尊重。</text>
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">7、热情加油　热而不乱</view>
+                    <view class="weui-article__p">
+                      <text decode="{{true}}">&emsp;&emsp; 为比赛加油要热情有度。一些竞争激烈，运动员需要思想高度集中的项目，如体操、举重、击剑、乒乓球、网球等，在比赛的进程中应保持安静，待运动员完成动作后或比赛死球时，方可鼓掌喝彩以示鼓励；田径的一些跳跃项目，一般运动员在起跑前会鼓动观众有节奏鼓掌参与互动。</text>
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">8、尊重选手　尊重裁判</view>
+                    <view class="weui-article__p">
+                      <text decode="{{true}}">&emsp;&emsp; 奥运观赛，应主动为比赛双方加油鼓掌，切忌起哄、吹口哨、怪声尖叫、喝倒彩，不嘲讽、辱骂裁判员、运动员、教练员，不向场内投掷东西，不干扰客队选手正常比赛；即使对裁判员的某些判罚不能理解接受的，也要保持克制和理智。</text>
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">9、污言秽语　不可张狂</view>
+                    <view class="weui-article__p">
+                     <text decode="{{true}}">&emsp;&emsp; 包括奥运赛场在内的所有体育比赛，观众决不可使用污言秽语，决不可用歧视性的语言侮辱、漫骂运动员、教练员、裁判员以及客队球迷等。体育赛场，严格禁止种族歧视的言行举止。</text>
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">10、发球发令 保持安静</view>
+                    <view class="weui-article__p">
+                     <text decode="{{true}}">&emsp;&emsp; 在比赛的发球、发令出发时应保持安静。发球项目如乒乓球、羽毛球、网球等；发令项目如游泳、田径的径赛等。另外，在一些鸣哨的项目中，如足球、篮球等不可携带与比赛哨声相近的哨笛进场。</text>
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">11、室内照相 闪光关停</view>
+                    <view class="weui-article__p">
+                      <text decode="{{true}}">&emsp;&emsp; 在绝大多数室内进行的比赛中，一些运动员有仰视比赛动作，观众可以照相，但不得使用闪光灯。这在乒、羽、网等球类，以及体操、跳水、拳击、柔道、摔交、跆拳道、击剑等项目中，均有这样的严格规定。</text>
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">12、射击馆内 手机静音</view>
+                    <view class="weui-article__p">
+                      <text decode="{{true}}">&emsp;&emsp; 进入赛场，观众要主动关闭手机铃声，或将手机铃声调整为震动状态，尤其在射击、网球等需要绝对安静的场所。 </text>                     
+                    </view>
+                    <view class="weui-article__p">
+                       <image class="weui-article__img" src="../../../images/competition/shooting.jpg" mode="aspectFit" style="height: 180px" />
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">13、网球比赛 进退耐心</view>
+                    <view class="weui-article__p">
+                      <text decode="{{true}}">&emsp;&emsp; 观众不宜在比赛中随意走动，特别是网球。网球是一项高雅的运动，有一整套严格的观赛礼仪，观众要暂时离场休息，必须耐心地等候在第3、5、7单局后及每盘结束后短暂的休息时间内离场进场。</text>
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">14、沙滩排球 阳伞收好</view>
+                    <view class="weui-article__p">
+                      <text decode="{{true}}">&emsp;&emsp; 沙滩排球，享受阳光。对于观赏沙滩排球等户外赛事，观众要准备防晒措施，佩戴遮阳帽、太阳镜，还要准备自带饮料。这类比赛还有室外网球、足球、赛艇皮划艇等。带上了遮阳伞，请一定收好。</text>
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">15、观赏马术 切勿尖叫场</view>
+                    <view class="weui-article__p">
+                      <text decode="{{true}}">&emsp;&emsp; 马术是一项绅士运动，也是唯一人与动物共同参加的比赛。马术比赛，包括现代五项的赛马比赛，要积极配合比赛中的选手和马匹，不要向场地内乱扔各种物品，以免打伤马匹、骑手。不宜迎面使用闪光灯进行拍照，不要摇摆任何旗帜和饰品，禁止在现场发出刺耳的尖叫声，也不能离开座位趴或骑在围栏上观看，不能接近或触摸马匹。</text>
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">16、观众选手 各行其道</view>
+                    <view class="weui-article__p">
+                      <text decode="{{true}}">&emsp;&emsp; 奥运赛场观众进退场有非常明确的专用通道。观众、记者、选手、嘉宾均有专门指定的允许通行路线，安全通行，各行其道。观众不要因为索取选手签名擅自闯入不允许进入的区域，不要进入射击射箭比赛的禁区，观看马拉松、竞走、铁人三项等包含路跑项目的比赛中不要穿越赛道、不碰触正在比赛的运动员。</text>
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">17、禁止吸烟 垃圾收掉</view>
+                    <view class="weui-article__p">
+                     <text decode="{{true}}">&emsp;&emsp; 奥运赛场禁止吸烟，有的赛场辟有吸烟区，吸烟者一定要在允许吸烟的区域吸烟。奥运会有许多比赛禁止带入吃食，观众应遵守相关规定。在射击、网球等需要安静的比赛，观众不宜嚼食发出响声的食品。对于带入的物品，在退场时要清理带出场外，保持场馆的清洁。</text>
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">18、排有序退场 平安最好</view>
+                    <view class="weui-article__p">
+                     <text decode="{{true}}">&emsp;&emsp; 比赛结束时，向双方运动员鼓掌致意。不随便中途退场；若提前退场，在不打扰他人的情况下尽快离开。退场时，按座位顺序退场，向最近的出口缓行或顺着人流行进。高兴而来,平安最好。</text>
+                    </view>
+                </view>
+
+            </view>
+        </view>
+    </view>
+</view>

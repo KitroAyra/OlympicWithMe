@@ -11,7 +11,9 @@
     "pages/purchase/purchasePage/purchasePage",
     "pages/interaction/interactionDetail/interactionDetail",
     "pages/polite/knowledge/knowledge",
-    "pages/gameIntroduction/gameIntroduction"
+    "pages/gameIntroduction/gameIntroduction",
+    "pages/polite/politeIntroduction/politeIntroduction",
+    "pages/polite/firstgold/firstgold"
   ],
   "window": {
     "backgroundTextStyle": "light",

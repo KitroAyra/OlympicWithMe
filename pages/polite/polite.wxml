@@ -6,19 +6,19 @@
   </view>
 </view>
 <!--文章列表-->
-<block wx:for="{{politeList}}" wx:for-item="politeItem" wx:for-index="politeIndex" wx:key="polite">
+<block wx:for="{{politeList}}" wx:for-item="politeItem"  wx:for-index='politeIndex'    >
   <view class="cu-card article {{isCard?'no-card':''}}" >
-    <view class="cu-item shadow" bindtap="navChange">
+    <view class="cu-item shadow" bindtap="navChange" data-politeindex="{{politeIndex}}"  >
       <view class="title">
-        <view class="text-cut">{{politeItem.title}}</view>
+        <view class="text-cut" >{{politeItem.title}}</view>
       </view>
       <view class="content">
         <image wx:if="{{politeItem.haveImg==true}}" src="{{politeItem.selectedImgUrl}}" mode="aspectFill"></image>
         <view class="desc">
-          <view class="text-content">{{politeItem.content}}</view>
-          <view wx:if="{{politeIndex==0}}">
+          <view wx:if="{{politeIndex==0 || politeIndex==1  }}">
             <view class="cu-tag bg-red light sm round">置顶</view>
           </view>
+          <view class="text-content">{{politeItem.content}}</view>
         </view>
       </view>
     </view>

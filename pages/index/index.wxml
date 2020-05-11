@@ -13,12 +13,16 @@
       </picker>
     </view>
     <view class="shot-menu-item" bindtap="actionSheetChange" data-name="list">
+      <picker bindchange="bindPickerChange2" value="{{indexSubTab}}" range="{{gamebarList}}">
       <text>全部项目</text>
       <image src="../../images/icon-arrow.png" class="shot-menu-arrow"></image>
+      </picker>
     </view>
     <view class="shot-menu-item" bindtap="actionSheetChange" data-name="timeframe">
+      <picker bindchange="" value="" range="{{timebarList}}">
       <text>全部日期</text>
       <image src="../../images/icon-arrow.png" class="shot-menu-arrow"></image>
+      </picker>
     </view>
     <!--奖牌榜表头-->
     <view class="flex solid-bottom padding ">
@@ -43,11 +47,11 @@
   <!--全部国家、全部项目、全部日期-->
   <view hidden="{{currentsubTab == 0}}">
   <!--奖牌榜内容2018平昌-->
-   <scroll-view scroll-y="true" class="indexes" scroll-into-view="C-{{indexSubTap}}" style="height:calc(100vh - {{CustomBar}}px - 50px)" scroll-with-animation="true" enable-back-to-top="true">
+   <scroll-view scroll-y="true" class="indexes" scroll-into-view="{{jumpPoint2}}" style="height:calc(100vh - {{CustomBar}}px - 50px)" scroll-with-animation="true" enable-back-to-top="true">
     <view class="padding bg-white">
-      <view class="grid col-{{index+1}} margin-bottom text-center" wx:for="{{medalList}}" wx:for-index="medalIndex" wx:key id="C+{{medalIndex}}" > 
+      <view class="grid col-{{index+1}} margin-bottom text-center" wx:for="{{medalList}}" wx:for-index="medalIndex" wx:key  > 
        <view class="flex solid-bottom  justify-between">
-        <view class="basis-xs  margin-xs padding-sm radius" >{{medalIndex+1}}</view>
+        <view class="basis-xs  margin-xs padding-sm radius" id="C{{medalIndex}}">{{medalIndex+1}}</view>
         <view class="cu-avatar  round margin-xs" style="background-image:url({{item.flagImg}});"></view>
         <view class=" margin-xs padding-sm radius">{{item.countryName}}</view>
         <view class=" margin-xs padding-sm radius">{{item.goldMedal}}</view>
