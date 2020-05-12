@@ -52,3 +52,35 @@
 .weui-article__p{
   margin:0 0 .8em;
 }
+
+/*排名榜*/
+.table {
+  border: 0px solid darkgray;
+}
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+}
+.td {
+    width:40%;
+    justify-content: center;
+    text-align: center;
+}
+.bg-w{
+  background: #AAC9CE;
+}
+.bg-g{
+  background: #ABD1DC;
+}
+.th {
+  width: 40%;
+  justify-content: center;
+  background: #ECD59F;
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}

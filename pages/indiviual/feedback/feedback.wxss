@@ -1,0 +1,17 @@
+.float-action {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+  background: #508CC8;
+  z-index: 100;
+  text-align: center;
+  opacity: .5;
+  margin-left: 40rpx;
+  float: right;
+}
+.float-action image {
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 20rpx;
+}

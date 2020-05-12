@@ -103,8 +103,8 @@ page{
     overflow: auto/*可滚动，hidden时不可滚动*/
 }
 .game-item, .game-img {
-    width: 710rpx;  /*每个卡片的宽度大小，710rpx*/
-    height: 400rpx; /*每个卡片的宽度大小，360rpx*/
+    width: 610rpx;  /*每个卡片的宽度大小，710rpx*/
+    height: 360rpx; /*每个卡片的宽度大小，360rpx*/
 }
 
 .game-item {

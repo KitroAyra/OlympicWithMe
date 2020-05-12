@@ -1,7 +1,7 @@
 <!--滚动展示-->
 <swiper class="card-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="#0081ff">
   <swiper-item wx:for="{{swiperList}}" wx:key class="{{cardCur==index?'cur':''}}">
-    <view class="swiper-item">
+    <view class="swiper-item" bindtap="navigateTopPurchase">
       <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
       <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
     </view>
@@ -423,9 +423,9 @@
       <!--菜单栏-->
       <view class="cu-list menu-avatar">
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/jewelry1.jpeg);"></view>
+          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/home1.jpeg);"></view>
           <view class="content">
-            <view class="text-grey">中国风纸雕灯DIY手工拼装卧室床头灯</view>
+            <view class="text-grey">国风纸雕灯DIY卧室床头灯</view>
             <view class="text-gray text-sm flex">
               <text class="text-cut">
 									<text class=" text-red  margin-right-xs"></text> 北京2022冬奥会文创纸雕灯DIY手工拼装卧室床头灯中国风

@@ -43,9 +43,33 @@ Page({
     }
   },
   getUserInfo: function (e) {
+    console.log(e)
+    app.globalData.userInfo = e.detail.userInfo
     this.setData({
-      userInfo: app.globalData.userInfo,
+      userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  navChangeAboutUs: function (e) {
+    wx.navigateTo({
+      url: '../indiviual/aboutUs/aboutUs',
+    })
+  },
+  navChangeLog: function (e) {
+    wx.navigateTo({
+      url: '../indiviual/logs/logs',
+    })
+  },
+  navChangeFeedback: function (e) {
+    wx.navigateTo({
+      url: '../indiviual/feedback/feedback',
+    })
+  },
+  onShareAppMessage: function (res) {
+    return {
+      title: '来奥运有我更便捷地观赛吧',
+      path: '/pages/index/index',
+      imageUrl: 'https://pics.images.ac.cn/image/5eb39d9d0cbf7.html'//自定义图片路径，可以是本地文件路径、代码包文件路径或者网络图片路径。支持PNG及JPG。显示图片长宽比是 5:4。
+    }
   }
 })

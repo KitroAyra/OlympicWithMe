@@ -1,0 +1,18 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+page {
+  background: #fff;
+}
+.bg-theme-blue{
+  background-color: #508CC8;
+  opacity: 0.7;
+}
+.text-theme-blue{
+  color: #508CC8;
+}

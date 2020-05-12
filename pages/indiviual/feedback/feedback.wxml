@@ -1,0 +1,10 @@
+<view class="padding bg-white">
+  <view class="flex flex-wrap">
+  <textarea placeholder="请填写您的宝贵意见~"></textarea>
+  </view>
+</view>
+<view class="float-container" style="position:fixed; bottom:40rpx;width: 700rpx;"  bindtap="navChangePost">
+    <view class="float-action" bindtap="showPostPanel" wx:if="{{!isEditMode}}">
+      <image src="../../../images/tick.png" />
+    </view>
+</view>

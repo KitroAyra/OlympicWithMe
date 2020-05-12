@@ -1,0 +1,14 @@
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-grey'>{{productName}}</view>
+  <view class='text-content'>
+    <view class='margin-top-sm'>{{productIntro}}</view>
+    <view class="works-item" wx:for='{{productPicUrl}}' wx:key ='key' ><image src='{{item}}'></image></view>
+
+    <view class='margin-top-sm'>商品的链接均为开发人员精心挑选的，可以放心选购噢٩(๑❛ᴗ❛๑)۶</view>
+    <view class='margin-top-sm '><text class="text-gray">緮置这行话$JMFr1L92LWj$转移至👉淘宝👈或點击鏈→接https://m.tb.cn/h.VQXSavp?sm=fbae1c 至瀏lan嘂..【古典中国风红木书签套装礼盒 木质创意文艺女生生日礼物 定制刻字】</text></view>
+    <view class="padding flex flex-wrap justify-between align-center bg-white">
+      <button class="cu-btn round sm bg-red margin-tb-sm lg" bindtap="copyPPUrl">复制链接</button>
+    </view>
+    <view class='margin-top-sm'>淘宝个体商家</view>
+  </view>
+</view>

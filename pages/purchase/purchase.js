@@ -6,19 +6,19 @@ Page({
     swiperList: [{
       id: 0,
       type: 'image',
-      url: '../../images/purchase/1.jpg'
+      url: '../../images/purchase/4.jpg'
     }, {
       id: 1,
       type: 'image',
-        url: '../../images/purchase/2.jpg',
+        url: '../../images/purchase/3.jpg',
     }, {
       id: 2,
       type: 'image',
-        url: '../../images/purchase/3.jpg'
+        url: '../../images/purchase/2.jpg'
     }, {
       id: 3,
       type: 'image',
-        url: '../../images/purchase/4.jpg'
+        url: '../../images/purchase/6.jpg'
     }, {
       id: 4,
       type: 'image',
@@ -26,11 +26,11 @@ Page({
     }, {
       id: 5,
       type: 'image',
-        url: '../../images/purchase/6.jpg'
+        url: '../../images/purchase/1.jpg'
     }, {
       id: 6,
       type: 'image',
-        url: '../../images/purchase/4.jpg'
+        url: '../../images/purchase/6.jpg'
     }],
     //侧面导航
     StatusBar: app.globalData.StatusBar,
@@ -48,6 +48,11 @@ Page({
       url: 'purchasePage/purchasePage',
     })
 
+  },
+  navigateTopPurchase:function(){
+    wx.navigateTo({
+      url: 'topPurchasePage/topPurchasePage',
+    })
   },
   onLoad() {
     this.towerSwiper('swiperList');

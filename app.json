@@ -13,7 +13,11 @@
     "pages/polite/knowledge/knowledge",
     "pages/gameIntroduction/gameIntroduction",
     "pages/polite/politeIntroduction/politeIntroduction",
-    "pages/polite/firstgold/firstgold"
+    "pages/polite/firstgold/firstgold",
+    "pages/purchase/topPurchasePage/topPurchasePage",
+    "pages/indiviual/aboutUs/aboutUs",
+    "pages/indiviual/feedback/feedback",
+    "pages/indiviual/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",

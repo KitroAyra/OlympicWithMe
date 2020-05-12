@@ -151,12 +151,12 @@
 <!--项目介绍-->
 <view hidden="{{currentTab!==2}}">
   <!--搜索框-->
-<view class="cu-bar bg-white search" style="top:0.1px">
+<!--view class="cu-bar bg-white search" style="top:0.1px">
   <view class="search-form round">
     <text class="cuIcon-search"></text>
     <input type="text" placeholder="搜索icon" confirm-type="search" bindinput="searchIcon"></input>
   </view>
-</view>
+</view-->
   <!--项目列表-->
   <view class="game-list" style="top:90px">
     <block wx:for="{{gameList}}" wx:for-item="gameItem" wx:for-index="gameIndex" wx:key="game">
