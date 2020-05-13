@@ -1,2 +1,9 @@
-<!--pages/indiviual/aboutUs/aboutUs.wxml-->
-<text>pages/indiviual/aboutUs/aboutUs.wxml</text>
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-grey'>关于奥运有我</view>
+  <view class='text-content'>
+    <view>奥运有我v1.0</view>
+    <view class='margin-top-sm'>by：好起来了</view>
+    <view class='margin-top-sm'>奥运有我微信小程序的提出是为了以微信小程序为核心入口，以奥运为核心主题，以信息整合发布为核心服务。集合比赛模块、互动模块、购买模块、文明模块，用户模块实现从比赛信息发布到用户交流分享奥运体验，再到奥运主题文创产品和比赛门票的推广，在保证及时比赛信息更新的基础上为顾客提供便捷而独特的奥运信息查询体验。</view>
+    <view class='margin-top-sm'>更多功能敬请期待！</view>
+  </view>
+</view>
