@@ -1,10 +1,12 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/interaction/interaction",
+    "pages/interaction/post/post",
+    "pages/login/login",    
     "pages/introduction/introduction",
     "pages/message/message",
     "pages/logs/logs",
-    "pages/interaction/interaction",
     "pages/polite/polite",
     "pages/purchase/purchase",
     "pages/indiviual/indiviual",
@@ -21,7 +23,7 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#508CC8",
+    "navigationBarBackgroundColor": "#6190E8",
     "navigationBarTitleText": "奥运有我",
     "navigationBarTextStyle": "white"
   },

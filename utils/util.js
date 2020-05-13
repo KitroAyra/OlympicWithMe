@@ -1,12 +1,9 @@
-const formatTime = date => {
-  const year = date.getFullYear()
-  const month = date.getMonth() + 1
-  const day = date.getDate()
-  const hour = date.getHours()
-  const minute = date.getMinutes()
-  const second = date.getSeconds()
+const app = getApp();
 
-  return [year, month, day].map(formatNumber).join('/') + ' ' + [hour, minute, second].map(formatNumber).join(':')
+const formatTime = time => {
+  const timeList = time.split('T');
+  timeList[1] = timeList[1].slice(0, 8);
+  return timeList.join(' ');
 }
 
 const formatNumber = n => {
@@ -14,6 +11,25 @@ const formatNumber = n => {
   return n[1] ? n : '0' + n
 }
 
+const checkUserInfo = () => {
+  return new Promise((resolve, reject) => {
+    wx.getSetting({
+      success: res => {
+        // 没有授权用户信息 跳转到登录页
+        if (!res.authSetting['scope.userInfo']) {
+          wx.navigateTo({
+            url: '/pages/login/login',
+          });
+          reject(false);
+        } else {
+          resolve(true);
+        }
+      }
+    })
+  })
+}
+
 module.exports = {
-  formatTime: formatTime
+  formatTime: formatTime,
+  checkUserInfo
 }

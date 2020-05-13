@@ -116,3 +116,11 @@
   font-weight: 300;
 }
 
+.no-content {
+  width: 100%;
+  text-align: center;
+  padding: 150rpx 0;
+  color: #aaaaaa;
+  font-weight: bold;
+  font-size: 28rpx;
+}

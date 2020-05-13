@@ -30,6 +30,7 @@ page {
 	--gray: #aaaaaa;
 	--ghostWhite: #f1f1f1;
 	--white: #ffffff;
+	--main: #6190E8;
 	/* 浅色 */
 	--redLight: #fadbd9;
 	--orangeLight: #fde6d2;
@@ -43,6 +44,7 @@ page {
 	--pinkLight: #f9d7ea;
 	--brownLight: #ede1d9;
 	--greyLight: #e7ebed;
+	--whiteLight: #f6f6fa;
 	/* 渐变色 */
 	--gradualRed: linear-gradient(45deg, #f43f3b, #ec008c);
 	--gradualOrange: linear-gradient(45deg, #ff9700, #ed1c24);
@@ -3944,4 +3946,10 @@ scroll-view.cu-steps .cu-item {
 .line-white,
 .lines-white {
 	color: var(--white);
+}
+
+.text-main,
+.line-main,
+.lines-main {
+	color: var(--main);
 }

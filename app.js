@@ -7,6 +7,32 @@ App({
         traceUser: true
       })
     }
+    // 登陆获取openid
+    wx.login({
+      success: (res) => {
+        if (res.code) {
+          //发起网络请求
+          wx.request({
+            url: BASE_URL + '/api/wx_info/get_openId',
+            data: {
+              js_code: res.code
+            },
+            success: res => {
+              this.globalData.openid = res.data.data.open_id;
+            },
+            fail: e => {
+              wx.showToast({
+                title: '网络请求错误，请检查您的网络状态',
+                icon: 'none',
+              });
+                
+            }
+          })
+        } else {
+          console.log('登录失败！' + res.errMsg)
+        }
+      }
+    })
     wx.getSystemInfo({
       success: e => {
         this.globalData.StatusBar = e.statusBarHeight;

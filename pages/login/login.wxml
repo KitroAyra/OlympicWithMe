@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="cu-bar justify-center bg-white" >
+    <view class="action sub-title">
+      <text class="text-xl text-bold text-sub">奥运有我</text>
+      <text class="text-ABC text-blue" style="font-size:46rpx">Olympic</text>
+      <!-- last-child选择器-->
+    </view>
+  </view>
+
+  <button class="login-button" open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">授权 / 登录</button>
+</view>

@@ -1,1 +1,65 @@
-/* pages/interaction/interactionDetail/interactionDetail.wxss */
+page {
+  background-color: #fefefe;
+}
+
+.article-card {
+  background-color: #ffffff;
+  box-shadow: 0 4rpx 16rpx rgba(226, 200, 200, .2);
+}
+
+.padding-st {
+  padding-top: 15rpx;
+}
+
+.comment-container {
+  position: fixed;
+  padding: 20rpx;
+  width: 100%;
+  display: flex;
+  bottom: 0;
+  background-color: #ffffff;
+  box-shadow: 0 -4rpx 16rpx rgba(226, 200, 200, .2);
+}
+
+.comment-input {
+  flex: 1;
+  height: 60rpx;
+  background-color: #fafafa;
+  border-radius: 10rpx;
+  padding-left: 20rpx;
+}
+
+.comment-button {
+  width: 120rpx;
+  border-radius: 10rpx;
+  background-color: #6190E8;
+  box-shadow: 0 6rpx 16rpx rgba(97, 144, 232, .4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .1s linear;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.btn-text {
+  white-space: nowrap;
+}
+
+@keyframes spin {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+.spin {
+	-webkit-animation: spin 1s infinite linear;
+	animation: spin 1s infinite linear;
+	display: inline-block;
+}
