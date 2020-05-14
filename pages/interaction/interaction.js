@@ -10,9 +10,15 @@ Page({
     this.getFeed();
   },
   onShow() {
-    this.getFeed();
+    this.setData({
+      page: 0
+    })
+    this.getFeed(true);
   },
-  getFeed() {
+  onReachBottom() {
+    this.getFeed()
+  },
+  getFeed(init = false) {
     const { page = 0, feedList = [] } = this.data;
     let newFeed = [];
     app.request('/api/article/getAll' ,{
@@ -21,7 +27,8 @@ Page({
       res.forEach(element => {
         element.article.time = util.formatTime(element.article.time);
       });
-      newFeed = [...feedList, ...res];
+      newFeed = init ? res : [...feedList, ...res];
+      
       this.setData({
         feedList: newFeed,
         page: page + 1
