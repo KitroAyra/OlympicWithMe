@@ -30,7 +30,7 @@
       <view class="cu-list menu-avatar">
 
         <view class="cu-item" bindtap="JumptoPage">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/badge1.jpeg);"></view>
+          <view class="cu-avatar round lg" style="background-image:url(http://api.xixfeng.cn/purchase/badge1.jpeg);"></view>
           <view class="content">
             <view class="text-grey">会徽/吉祥物双枚纪念章</view>
             <view class="text-gray text-sm flex">
@@ -46,7 +46,7 @@
         </view>
 
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/badge2.jpeg);">
+          <view class="cu-avatar round lg" style="background-image:url(http://api.xixfeng.cn/purchase/badge2.jpeg);">
             <!--view class="cu-tag badge">99+</view红色消息提示-->
           </view>
           <view class="content">
@@ -66,7 +66,7 @@
         </view>
 
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/badge4.jpeg);">
+          <view class="cu-avatar round lg" style="background-image:url(http://api.xixfeng.cn/purchase/badge4.jpeg);">
             <!--view class="cu-tag badge">99+</view红色消息提示-->
           </view>
           <view class="content">
@@ -86,7 +86,7 @@
         </view>
 
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/badge5.jpeg);">
+          <view class="cu-avatar round lg" style="background-image:url(http://api.xixfeng.cn/purchase/badge5.jpeg);">
           </view>
           <view class="content">
             <view class="text-grey">
@@ -118,7 +118,7 @@
       <view class="cu-list menu-avatar">
 
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/clothe1.jpeg);"></view>
+          <view class="cu-avatar round lg" style="background-image:url(http://api.xixfeng.cn/purchase/clothe1.jpeg);"></view>
           <view class="content">
             <view class="text-grey">繁花似锦丝巾</view>
             <view class="text-gray text-sm flex">
@@ -134,7 +134,7 @@
         </view>
 
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/clothe2.jpeg);">
+          <view class="cu-avatar round lg" style="background-image:url(http://api.xixfeng.cn/purchase/clothe2.jpeg);">
           </view>
           <view class="content">
             <view class="text-grey">
@@ -153,7 +153,7 @@
         </view>
 
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/clothe3.jpeg);">
+          <view class="cu-avatar round lg" style="background-image:url(http://api.xixfeng.cn/purchase/clothe3.jpeg);">
           </view>
           <view class="content">
             <view class="text-grey">
@@ -173,7 +173,7 @@
 
 
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/clothe4.jpeg);">
+          <view class="cu-avatar round lg" style="background-image:url(http://api.xixfeng.cn/purchase/clothe4.jpeg);">
           </view>
           <view class="content">
             <view class="text-grey">
@@ -205,7 +205,7 @@
       <view class="cu-list menu-avatar">
 
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/stationery1.jpeg);"></view>
+          <view class="cu-avatar round lg" style="background-image:url(http://api.xixfeng.cn/purchase/stationery1.jpeg);"></view>
           <view class="content">
             <view class="text-grey">环保会标帆布包</view>
             <view class="text-gray text-sm flex">
@@ -233,7 +233,7 @@
       <view class="cu-list menu-avatar">
 
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/chinese1.jpeg);"></view>
+          <view class="cu-avatar round lg" style="background-image:url(http://api.xixfeng.cn/purchase/chinese1.jpeg);"></view>
           <view class="content">
             <view class="text-grey">慕尼黑奥运会马克杯</view>
             <view class="text-gray text-sm flex">
@@ -249,7 +249,7 @@
         </view>
 
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/chinese2.jpeg);">
+          <view class="cu-avatar round lg" style="background-image:url(http://api.xixfeng.cn/purchase/chinese2.jpeg);">
             <!--view class="cu-tag badge">99+</view红色消息提示-->
           </view>
           <view class="content">
@@ -269,7 +269,7 @@
         </view>
 
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/chinese3.jpeg);">
+          <view class="cu-avatar round lg" style="background-image:url(http://api.xixfeng.cn/purchase/chinese3.jpeg);">
           </view>
           <view class="content">
             <view class="text-grey">
@@ -299,7 +299,7 @@
       <!--菜单栏-->
       <view class="cu-list menu-avatar">
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/stamp1.jpeg);"></view>
+          <view class="cu-avatar round lg" style="background-image:url(http://api.xixfeng.cn/purchase/stamp1.jpeg);"></view>
           <view class="content">
             <view class="text-grey">一定赢999纯银仿印邮票套装</view>
             <view class="text-gray text-sm flex">
@@ -315,7 +315,7 @@
         </view>
 
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/stamp2.jpeg);">
+          <view class="cu-avatar round lg" style="background-image:url(http://api.xixfeng.cn/purchase/stamp2.jpeg);">
             <!--view class="cu-tag badge">99+</view红色消息提示-->
           </view>
           <view class="content">
@@ -335,7 +335,7 @@
         </view>
 
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/stamp3.jpeg);">
+          <view class="cu-avatar round lg" style="background-image:url(http://api.xixfeng.cn/purchase/stamp3.jpeg);">
           </view>
           <view class="content">
             <view class="text-grey">
@@ -365,7 +365,7 @@
       <!--菜单栏-->
       <view class="cu-list menu-avatar">
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/jewelry1.jpeg);"></view>
+          <view class="cu-avatar round lg" style="background-image:url(http://api.xixfeng.cn/purchase/jewelry1.jpeg);"></view>
           <view class="content">
             <view class="text-grey">舞雪系列冰心点语项链/手链/耳坠</view>
             <view class="text-gray text-sm flex">
@@ -392,7 +392,7 @@
       <!--菜单栏-->
       <view class="cu-list menu-avatar">
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/toy2.jpeg);">
+          <view class="cu-avatar round lg" style="background-image:url(http://api.xixfeng.cn/purchase/toy2.jpeg);">
             <!--view class="cu-tag badge">99+</view红色消息提示-->
           </view>
           <view class="content">
@@ -423,7 +423,7 @@
       <!--菜单栏-->
       <view class="cu-list menu-avatar">
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/home1.jpeg);"></view>
+          <view class="cu-avatar round lg" style="background-image:url(http://api.xixfeng.cn/purchase/home1.jpeg);"></view>
           <view class="content">
             <view class="text-grey">国风纸雕灯DIY卧室床头灯</view>
             <view class="text-gray text-sm flex">
@@ -450,7 +450,7 @@
       <!--菜单栏-->
       <view class="cu-list menu-avatar">
         <view class="cu-item">
-          <view class="cu-avatar round lg" style="background-image:url(../../images/purchase/outside1.jpeg);"></view>
+          <view class="cu-avatar round lg" style="background-image:url(http://api.xixfeng.cn/purchase/outside1.jpeg);"></view>
           <view class="content">
             <view class="text-grey">青花长城晴雨两用伞</view>
             <view class="text-gray text-sm flex">

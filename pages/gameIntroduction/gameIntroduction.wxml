@@ -8,7 +8,7 @@
             <view class="weui-article__h1">{{h11th}}</view>
             <view class="weui-article__p">
               <text decode="{{true}}">{{p1}}</text>
-               <image class="weui-article__img" src="../../images/competition/figureskating1-2.jpg" mode="aspectFit" style="height: 180px" />
+               <image class="weui-article__img" src="http://api.xixfeng.cn/competition/figureskating1-2.jpg" mode="aspectFit" style="height: 180px" />
             </view>
             <view class="weui-article__section">
                 <view class="weui-article__h2">{{h21th}}</view>

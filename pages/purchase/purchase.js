@@ -6,31 +6,31 @@ Page({
     swiperList: [{
       id: 0,
       type: 'image',
-      url: '../../images/purchase/4.jpg'
+      url: 'http://api.xixfeng.cn/purchase/4.jpg'
     }, {
       id: 1,
       type: 'image',
-        url: '../../images/purchase/3.jpg',
+        url: 'http://api.xixfeng.cn/purchase/3.jpg',
     }, {
       id: 2,
       type: 'image',
-        url: '../../images/purchase/2.jpg'
+        url: 'http://api.xixfeng.cn/purchase/2.jpg'
     }, {
       id: 3,
       type: 'image',
-        url: '../../images/purchase/6.jpg'
+        url: 'http://api.xixfeng.cn/purchase/6.jpg'
     }, {
       id: 4,
       type: 'image',
-        url: '../../images/purchase/5.jpg'
+        url: 'http://api.xixfeng.cn/purchase/5.jpg'
     }, {
       id: 5,
       type: 'image',
-        url: '../../images/purchase/1.jpg'
+        url: 'http://api.xixfeng.cn/purchase/1.jpg'
     }, {
       id: 6,
       type: 'image',
-        url: '../../images/purchase/6.jpg'
+        url: 'http://api.xixfeng.cn/purchase/6.jpg'
     }],
     //侧面导航
     StatusBar: app.globalData.StatusBar,

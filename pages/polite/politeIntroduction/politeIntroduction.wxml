@@ -17,7 +17,7 @@
                         <text decode="{{true}}">&emsp;&emsp;奥运盛会，举世瞩目。100多年来，奥运比赛项目在不断完善各自的赛制和规则的同时，形成了一些约定俗成的赛场文明习俗和明文规定的观赛礼仪。文明观赛，这既是奥运会文化礼仪的一个部分，也是展示东道主良好形象的重要内容。</text>
                     </view>
                     <view class="weui-article__p">
-                        <image class="weui-article__img" src="../../../images/competition/nest.jpg" mode="aspectFit" style="height: 180px;" />
+                        <image class="weui-article__img" src="http://api.xixfeng.cn/competition/nest.jpg" mode="aspectFit" style="height: 180px;" />
                     </view>
                 </view>
                 <view class="weui-article__section">
@@ -86,7 +86,7 @@
                       <text decode="{{true}}">&emsp;&emsp; 进入赛场，观众要主动关闭手机铃声，或将手机铃声调整为震动状态，尤其在射击、网球等需要绝对安静的场所。 </text>                     
                     </view>
                     <view class="weui-article__p">
-                       <image class="weui-article__img" src="../../../images/competition/shooting.jpg" mode="aspectFit" style="height: 180px" />
+                       <image class="weui-article__img" src="http://api.xixfeng.cn/competition/shooting.jpg" mode="aspectFit" style="height: 180px" />
                     </view>
                 </view>
                 <view class="weui-article__section">

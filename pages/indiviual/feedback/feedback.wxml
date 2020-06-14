@@ -5,6 +5,6 @@
 </view>
 <view class="float-container" style="position:fixed; bottom:40rpx;width: 700rpx;"  bindtap="navChangePost">
     <view class="float-action" bindtap="showPostPanel" wx:if="{{!isEditMode}}">
-      <image src="../../../images/tick.png" />
+      <image src="http://api.xixfeng.cn/tick.png" />
     </view>
 </view>

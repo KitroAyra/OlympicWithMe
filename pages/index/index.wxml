@@ -9,19 +9,19 @@
     <view class="shot-menu-item" bindtap="actionSheetChange" data-name="sort">
       <picker bindchange="bindPickerChange2" value="{{indexSubTab}}" range="{{Countrylist}}">
       <text>全部国家</text>
-      <image src="../../images/icon-arrow.png" class="shot-menu-arrow"></image>
+      <image src="http://api.xixfeng.cn/icon-arrow.png" class="shot-menu-arrow"></image>
       </picker>
     </view>
     <view class="shot-menu-item" bindtap="actionSheetChange" data-name="list">
       <picker bindchange="bindPickerChange2" value="{{indexSubTab}}" range="{{gamebarList}}">
       <text>全部项目</text>
-      <image src="../../images/icon-arrow.png" class="shot-menu-arrow"></image>
+      <image src="http://api.xixfeng.cn/icon-arrow.png" class="shot-menu-arrow"></image>
       </picker>
     </view>
     <view class="shot-menu-item" bindtap="actionSheetChange" data-name="timeframe">
       <picker bindchange="" value="" range="{{timebarList}}">
       <text>全部日期</text>
-      <image src="../../images/icon-arrow.png" class="shot-menu-arrow"></image>
+      <image src="http://api.xixfeng.cn/icon-arrow.png" class="shot-menu-arrow"></image>
       </picker>
     </view>
     <!--奖牌榜表头-->
@@ -72,17 +72,17 @@
   <view class="shot-menu">
     <view class="shot-menu-item" bindtap="actionSheetChange" data-name="sort">
       <text>全部项目</text>
-      <image src="../../images/icon-arrow.png" class="shot-menu-arrow"></image>
+      <image src="http://api.xixfeng.cn/icon-arrow.png" class="shot-menu-arrow"></image>
     </view>
     <view class="shot-menu-item">
       <picker bindchange="bindPickerChange" value="{{index}}" range="{{timeArray}}">
         <text>全部日期</text>
-        <image src="../../images/icon-arrow.png" class="shot-menu-arrow"></image>        
+        <image src="http://api.xixfeng.cn/icon-arrow.png" class="shot-menu-arrow"></image>        
       </picker>
     </view>
     <view class="shot-menu-item" bindtap="actionSheetChange" data-name="timeframe">
       <text>全部时段</text>
-      <image src="../../images/icon-arrow.png" class="shot-menu-arrow"></image>
+      <image src="http://api.xixfeng.cn/icon-arrow.png" class="shot-menu-arrow"></image>
     </view>
       <!--具体时间导航栏-->
       <view class="shot-menu-item2">
